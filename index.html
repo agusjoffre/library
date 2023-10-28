@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Odin-Library</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Joffre's Library</h1>
+        </div>
+
+        <div class="new-book">
+            <form id="add-book-form" action="">
+                <div class="form-container">
+                    <div class="form-col">
+                        <label for="book-title">Title</label>
+                        <input placeholder="Title" id="book-title" type="text">
+                    </div>
+                    <div class="form-col">
+                        <label for="book-author">Author</label>
+                        <input placeholder="Author" id="book-author" type="text">
+                    </div>
+                    <div class="form-col">
+                        <label for="book-pages">Pages</label>
+                        <input placeholder="Pages" id="book-pages" type="number" min="1" value="1">
+                    </div>
+                    <div class="form-col">
+                        <label for="book-read">Read?</label>
+                        <input id="book-read" type="checkbox">
+                    </div>
+                </div>
+                <div class="submit-col">
+                    <button id="book-submit-btn" type="submit">Add</button>
+                </div>
+
+            </form>
+        </div>
+        <div class="card-container">
+
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
